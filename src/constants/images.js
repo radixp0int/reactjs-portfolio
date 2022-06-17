@@ -3,6 +3,7 @@ import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
+import django from '../assets/django.png';
 import figma from '../assets/figma.png';
 import angular from '../assets/angular.png';
 import flutter from '../assets/flutter.png';
@@ -16,6 +17,7 @@ import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
+import spring from '../assets/spring.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
@@ -24,6 +26,9 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 import aboutAngular from '../assets/aboutAngular.png';
+import aboutReact from '../assets/aboutReact.png';
+import aboutSpring from '../assets/aboutSpring.png';
+import aboutDjango from '../assets/aboutDjango.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -44,6 +49,7 @@ export default {
     api,
     cpp,
     css,
+    django,
     figma,
     flutter,
     git,
@@ -56,6 +62,7 @@ export default {
     react,
     redux,
     sass,
+    spring,
     typescript,
     vue,
     about01,
@@ -63,6 +70,9 @@ export default {
     about03,
     about04,
     aboutAngular,
+    aboutReact,
+    aboutSpring,
+    aboutDjango,
     profile,
     circle,
     logo,

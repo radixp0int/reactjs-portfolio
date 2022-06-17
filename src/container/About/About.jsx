@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './About.scss';
 import { urlFor, client } from '../../client';
@@ -9,22 +9,22 @@ const aboutItems = [
   {
     title: 'Angular',
     description: 'I am a good web developer.',
-    imgUrl: images.aboutAngular
+    imgUrl: images.angular
   },
   {
     title: 'ReactJS',
     description: 'I am a good web developer.',
-    imgUrl: ''
+    imgUrl: images.aboutReact
   },
   {
-    title: 'UI/UX',
+    title: 'Spring Boot',
     description: 'I am a good web developer.',
-    imgUrl: ''
+    imgUrl: images.aboutSpring
   },
   {
-    title: 'UI/UX',
+    title: 'Django',
     description: 'I am a good web developer.',
-    imgUrl: ''
+    imgUrl: images.django
   }
 ]
 
@@ -64,4 +64,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, 'about')
