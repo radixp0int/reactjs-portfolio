@@ -4,6 +4,7 @@ import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import figma from '../assets/figma.png';
+import angular from '../assets/angular.png';
 import flutter from '../assets/flutter.png';
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
@@ -22,6 +23,7 @@ import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
+import aboutAngular from '../assets/aboutAngular.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -36,6 +38,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+    angular,
     email,
     mobile,
     api,
@@ -59,6 +62,7 @@ export default {
     about02,
     about03,
     about04,
+    aboutAngular,
     profile,
     circle,
     logo,
