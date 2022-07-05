@@ -78,7 +78,7 @@ const Footer = () => {
               className='p-text'
               placeholder='Your Message'
               value={message}
-              name={message}
+              name="message"
               onChange={handleChangeInput}
             />
           </div>
