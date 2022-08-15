@@ -70,7 +70,7 @@ const Testimonial = () => {
           >
             <img src={urlFor(brand.imgUrl)} alt={brand.name} />
           </motion.div>
-        ))};
+        ))}
       </div>
     </>
   )

@@ -35,7 +35,7 @@ const Work = () => {
       } else {
         setFilterWork(works.filter((work) => work.tags.includes(item)));
       }
-    }, 500);
+    }, 500)
   }
 
   return (
@@ -109,4 +109,4 @@ export default AppWrap(
   MotionWrap(Work, 'app__works'),
   'work',
   "app__primarybg"
-);
+)
